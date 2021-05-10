@@ -57,13 +57,15 @@ header nav ul li a:hover {
 }
 /* End of Header Styling */
 
+/* START OF ABOUT ME SECTION */
+
 .title {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   color: var(--white-secondary);
-  font-size: 36px;
+  font-size: 40px;
   margin-top: 30px;
   text-decoration: underline;
   text-decoration-color: #fed766;
@@ -133,4 +135,60 @@ header nav ul li a:hover {
   line-height: 2;
   font-size: 24px;
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+/* END OF ABOUT ME SECTION */
+
+.work {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.work h3 a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: var(--white-secondary);
+  font-size: 28px;
+  margin-top: 30px;
+  text-decoration: underline;
+  text-decoration-color: #fed766;
+}
+
+.run-buddy img {
+  height: 450px;
+  width: 450px;
+  margin: 50px;
+  border: 8px solid #fed766;
+  border-radius: 5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 35px;
+  background-color: var(--grey-secondary);
+}
+
+footer div {
+  margin: 25px 0;
+}
+
+footer div ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.7vw;
+}
+
+footer div ul li a {
+  color: var(--white-secondary);
+  border-bottom: 2px solid #fed766;
 }
