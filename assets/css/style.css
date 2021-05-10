@@ -5,10 +5,13 @@
   text-decoration: none;
   list-style: none;
 }
-
+body {
+  background-color: var(--main-color);
+}
 :root {
   --main-color: #272727;
   --white-secondary: #eff1f3;
+  --grey-secondary: #696773;
 }
 
 /* Header Styling  Starts */
@@ -33,7 +36,7 @@ header a {
 }
 
 header nav {
-  margin: 6px 0;
+  margin: 8px 0;
 }
 
 header nav ul {
@@ -46,5 +49,88 @@ header nav ul {
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 1.7vw;
+}
+
+header nav ul li a:hover {
+  border-bottom: 2px solid #fed766;
+}
+/* End of Header Styling */
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--white-secondary);
+  font-size: 36px;
+  margin-top: 30px;
+  text-decoration: underline;
+  text-decoration-color: #fed766;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.hobbies {
+  background-color: var(--grey-secondary);
+  width: 35%;
+  height: 400px;
+  margin-top: 70px;
+  color: var(--white-secondary);
+  border-radius: 30px;
+  border-bottom: 3px solid #fed766;
+}
+
+.hobbies h3 {
+  text-align: center;
+  font-size: 38px;
+  border-bottom: 3px solid #fed766;
+}
+
+.hobbies ul {
+  text-align: center;
+}
+
+.hobbies ul li {
+  line-height: 2;
+  font-size: 24px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.hero-img img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.experience {
+  background-color: var(--grey-secondary);
+  width: 35%;
+  height: 400px;
+  margin-top: 70px;
+  color: var(--white-secondary);
+  border-radius: 30px;
+  border-bottom: 3px solid #fed766;
+}
+
+.experience h3 {
+  text-align: center;
+  font-size: 38px;
+  border-bottom: 3px solid #fed766;
+}
+
+.experience ul {
+  text-align: center;
+}
+
+.experience ul li {
+  line-height: 2;
+  font-size: 24px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
